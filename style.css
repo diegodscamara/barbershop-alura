@@ -1,9 +1,4 @@
-body {
-    background: #CCCCCC
-}
-
 /*header*/
-
 header{
     background: #bbbbbb;
     padding: 20px 0;
@@ -40,45 +35,49 @@ nav a:hover{
 }
 
 /*main*/
-
-#banner {
-    width: 100%;
+.produtos{
+    width: 940px;
+    margin: auto;
+    padding: 50px 0;
 }
 
-.titulo-centralizado {
-    text-align: center!important;
-}
-
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px
-}
-
-em strong {
-    color: #FF0000;
-}
-
-.itens {
-    font-style: italic
-}
-
-.beneficios {
-    background: #FFFFFF;
-    padding: 20px;
-}
-
-.beneficios ul {
+.produtos li{
     display: inline-block;
+    text-align-last: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
-.imagembeneficios {
-    width: 50%;
+.produtos li:hover{
+    border-color: #c78c19;
+}
+
+.produtos li:active{
+    border-color: #088c19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao{
+    font-size: 18px;
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 /*footer*/
@@ -92,4 +91,32 @@ footer{
     color: #ffffff;
     font-size: 13px;
     margin-top: 20px 0 0;
+}
+
+/*form*/
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+main form{
+    margin: 40px 0;
+}
+
+main form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin:  0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
 }
