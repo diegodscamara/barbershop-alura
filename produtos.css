@@ -1,23 +1,24 @@
+/*header*/
 header{
     background: #bbbbbb;
     padding: 20px 0;
 }
 
 .caixa{
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
+    position: relative!important;
+    width: 940px!important;
+    margin: 0 auto!important;
 }
 
 nav{
-    position: absolute;
-    top: 110px;
-    right: 0;
+    position: absolute!important;
+    top: 110px!important;
+    right: 0!important;
 }
 
 nav li{
-    display: inline;
-    margin: 0 0 0 15px;
+    display: inline!important;
+    margin: 0 0 0 15px!important;
 }
 
 nav a{
@@ -33,6 +34,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/*main*/
 .produtos{
     width: 940px;
     margin: auto;
@@ -78,6 +80,7 @@ nav a:hover{
     margin-top: 10px;
 }
 
+/*footer*/
 footer{
     text-align: center;
     background: url("img/bg.jpg");

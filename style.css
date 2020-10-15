@@ -2,14 +2,43 @@ body {
     background: #CCCCCC
 }
 
-.titulo-principal {
-    padding-left: 20px;
+/*header*/
+header{
+    background: #bbbbbb;
+    padding: 20px 0;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 30px;
+.caixa{
+    position: relative!important;
+    width: 940px!important;
+    margin: 0 auto!important;
 }
+
+nav{
+    position: absolute!important;
+    top: 110px!important;
+    right: 0!important;
+}
+
+nav li{
+    display: inline!important;
+    margin: 0 0 0 15px!important;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+/*main*/
 
 #banner {
     width: 100%;
@@ -49,4 +78,17 @@ ul {
 
 .imagembeneficios {
     width: 50%;
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 40px 0!important;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px 0 0;
 }
