@@ -3,6 +3,7 @@ body {
 }
 
 /*header*/
+
 header{
     background: #bbbbbb;
     padding: 20px 0;
@@ -45,7 +46,7 @@ nav a:hover{
 }
 
 .titulo-centralizado {
-    text-align: center
+    text-align: center!important;
 }
 
 p {
@@ -69,7 +70,7 @@ em strong {
     padding: 20px;
 }
 
-ul {
+.beneficios ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
@@ -83,7 +84,7 @@ ul {
 /*footer*/
 footer{
     text-align: center;
-    background: url("img/bg.jpg");
+    background: url("img/bg.jpg")!important;
     padding: 40px 0!important;
 }
 
